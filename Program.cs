@@ -67,3 +67,24 @@
 // double zb = Convert.ToDouble(Console.ReadLine());
 
 // Console.WriteLine($"Distance between point A with coordinates ({xa},{ya},{za}) and point B with coordinates ({xb},{yb},{zb}) -> {FindDistance(xa, ya, za, xb, yb, zb)}");
+
+// Задача 23
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// void Guard(int n)
+// {
+//     int i = 1;
+//     while (i <= n)
+//     {
+//         Console.WriteLine($"{i} -> {i * i * i}");
+//         i++;
+//     }
+
+// }
+// Console.WriteLine("Введите N ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// Guard(n);
